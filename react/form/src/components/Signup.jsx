@@ -18,7 +18,7 @@ function Signup({formData, handleOnChange, handleSubmit, handleBlur, handleFocus
                         <label htmlFor="">Password</label>
                         <input type="text" className={!isValid.password ? 'invalid' : 'valid'} onBlur={handleBlur} onFocus={handleFocus} placeholder="password" value={formData.password} name="password" onChange={handleOnChange} />
                         {!isValid.password ? <span className='err-msg'>Enter the special character and number</span> : ''}
-                        <input type='submit' className='form-btn' value="Register" />
+                        <input type='submit' className='form-btn' value="Submit" />
                     </form>
                 </div>
             </div>

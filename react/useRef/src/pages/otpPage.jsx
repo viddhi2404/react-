@@ -1,4 +1,3 @@
-
 import { useRef } from 'react'
 import './OTP.css'
 import { useEffect } from 'react';
@@ -39,7 +38,7 @@ function OTPPage() {
         <>
             <div className="otp-main">
                 <h2>Varify Email</h2>
-                {/* <span>tankviddhi24@gmail.com</span> */}
+                <span>priyankraychura@gmail.com</span>
                 <form action="" onSubmit={handleSubmit}>
                     <div className="inputs">
                         <input type="text" ref={titleRef} onChange={(e) => handleInput(e, titleRef2, null)}/>
@@ -49,7 +48,7 @@ function OTPPage() {
                         <input type="text" ref={titleRef5} onChange={(e) => handleInput(e, titleRef6, titleRef4)}/>
                         <input type="text" ref={titleRef6} onChange={(e) => handleInput(e, null, titleRef5)}/>
                     </div>
-                    <input type="submit" className='btn'/>
+                    <input type="submit" className='btn' value="Varify OTP"/>
                 </form>
             </div>
         </>

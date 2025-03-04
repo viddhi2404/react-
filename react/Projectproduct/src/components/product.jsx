@@ -58,6 +58,7 @@ function Product(){
                                                 <h3>Item Name: {product.pName}</h3>
                                                 <p>Item Description: {product.pDesc}</p>
                                                 <p>Item Price: {product.pPrice}</p>
+                                                
                                             </div>
                                             <button> + Add to Cart</button>
                                         </div>
